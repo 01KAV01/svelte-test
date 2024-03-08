@@ -1,6 +1,6 @@
 <script>
 
-import Icon from "/programm for work/Java Script Projects/Modul 4/Kazakov_4.5/svelte-test/src/components/Icon.svelte";
+import Icon from "./Icon.svelte";
 
     let newItem = "";
     export let todoList = []; 
@@ -77,7 +77,7 @@ button.delete:hover{
 
 button.complete,
 button.complete:hover{
-    background-image: url(/src/components/check-mark.jpg);
+background-image: url(/src/components/check-mark.jpg);
 background-size: cover;
 background-position: center;
 transition: filter 0.3s ease;
