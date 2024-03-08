@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto
 cupiditate dolores
 ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
 </h2>
-<div style='color:black' class='scroll-button animate-scroll' tabindex='0'>
+<div style='color:black' class='scroll-button animate-scroll'>
 <a href='/about'>Click Here</a>
 <div class='arrow'>&#8594;</div>
 </div>
@@ -26,47 +26,44 @@ ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
 </div>
 <div class='background-div'></div>
 
-
 <style>
-    info{
-    text-align: center;
-    position: relative;
+.info{
+text-align: center;
+position: relative;
 }
 
-    info-container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    align-items: start;
+.info-container {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+align-items: start;
 }
 
-    .container {
-    max-width: 1400px;
-    margin: 190px 0 0 2.5rem;
+.container {
+max-width: 1400px;
+margin: 190px 0 0 2.5rem;
 }
 
-    info h1 {
-    font-size: 4rem;
-    margin: 0;
+.info h1 {
+font-size: 4rem;
+margin: 0;
 }
 
-
-info h1 p {
+.info h1 p {
 position: relative;
 font: inherit;
 margin: 0;
 text-align: left;
-line-height:
-130%;
+line-height: 130%;
 width: fit-content;
 font-weight: 800;
 letter-spacing: -0.03em;
 }
 
 .info h2 {
-max-width: 65 ch;
+max-width: 65ch;
 font-weight: 200;
 margin-top: 0.50rem;
 }
@@ -74,12 +71,11 @@ margin-top: 0.50rem;
 .background-div {
 background-color: #ecebe8;
 width: 100%;
-height: 56 vh;
+height: 56vh;
 margin: -205px auto;
 }
 
-
-info info-text {
+.info .info-text {
 position: relative;
 }
 
@@ -90,7 +86,7 @@ outline: none;
 cursor: pointer;
 }
 
-scroll-button .arrow {
+.scroll-button .arrow {
 margin-left: 0.50rem;
 }
 
