@@ -135,7 +135,7 @@
     
     button.delete:hover{
     
-        filter: brightness(0.5);
+        filter: brightness(0.75);
     }
     
     
@@ -149,7 +149,7 @@
     }
     
     button.complete:hover{
-        filter: brightness(0.5); 
+        filter: brightness(0.75); 
     }
     
     .todo {
