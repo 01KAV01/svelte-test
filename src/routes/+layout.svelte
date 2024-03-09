@@ -1,57 +1,34 @@
 <nav>
     <div class="nav-container">
-    <a href="/" class="nav-logo" title="Back to Homepage">Казаков Артём</a>
+    <a href="/" class="nav-logo" title="Back to Homepage">На главную</a>
         <div class="nav-links">
         {#each nav as link}
-
-            {#if link.isShow}
-
             <a href={link.href} class="link">{link.title}</a>
-
-        {/if}
-        
         {/each}
         </div>
     </div>
 </nav>
 
     <div class="container">
-    <!-- Pages will be injected below -->
     <slot></slot>
     </div>
     <script>
         const nav = [
         {
-        title:'Обо мне',
-        href:'/about',
-        isShow: true,
-        },
-
-        {
-        title:'Блог',
+        title:'История города',
         href:'/blog',
-        isShow: true,
         },
 
         {
-        title:'Портфолио',
+        title:'Достопримечательности',
         href:'/project',
-        isShow: true,
         },
 
         {
-        title:'Контакты',
+        title:'Галерея',
         href:'/contact',
-        isShow: true,
         },
-
-        {
-        title:'temp',
-        href:'/temp',
-        isShow: true,
-        },
-
-        
+   
     ]
         </script>
     <style>
