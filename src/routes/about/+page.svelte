@@ -1,10 +1,11 @@
 <h1>Обо мне</h1>
 <p>Люблю поспать</p>
 
-<p>
-<img src="/src/components/sleep.png" width="300" height="400">
-</p>
+<script>
+    import photo from './sleep.png';
+</script>
 
+<img src={photo} width="300" height="400" alt="Описание изображения"  />
 <style>
 
 :root {
