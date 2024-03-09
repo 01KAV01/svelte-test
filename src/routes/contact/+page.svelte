@@ -3,6 +3,9 @@
 kazakov.a.v.2003@gmail.com
 
 <style>
+    :root {
+    --primary-color: #3498db;
+}
     h1, h2 {
     color: var(--primary-color);
 }

@@ -4,6 +4,13 @@
 
 <style>
 
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+    --border-color: #e7e7e7;
+}
 h1 {
     text-align: center;
     font-size: 2.5rem;

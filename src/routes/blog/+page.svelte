@@ -24,7 +24,13 @@
 
     <style>
 
-
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+    --border-color: #e7e7e7;
+}
 
 .blogposts {
     display: grid;
