@@ -12,11 +12,11 @@ export const routes = [
 
     {
 
-        "id": 2,
+        id: 2,
         
-        "title": "My Second Blog Post",
+        title: "My Second Blog Post",
         
-        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate"
+        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate"
         
         }
     

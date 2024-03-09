@@ -25,22 +25,48 @@
     </script>
 
 <style>
-    .container {
+
+
+.container {
     margin: 50px auto;
     max-width: 800px;
     padding: 0 20px;
     }
-    .apps {
+.apps {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
-    .app {
-    border: 1px solid #ddd;
-    padding: 10px;
-    box-shadow: 0 0 10px #eee;
+
+.app {
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--background-color);
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
 }
-    .link {
-    color: rgb(10, 10, 139);
+
+.app:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
+
+.link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: var(--secondary-color);
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
     </style>

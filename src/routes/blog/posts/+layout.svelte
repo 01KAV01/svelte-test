@@ -9,4 +9,5 @@
         max-width: 800px;
         padding: 0 20px;
     }
+    
 </style>
